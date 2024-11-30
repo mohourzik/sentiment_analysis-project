@@ -1,3 +1,6 @@
+import pandas as pd
+import os
+
 train_data = 'data/train.csv'
 test_data = 'data/test.csv'
 valid_data = 'data/test.csv'
@@ -13,6 +16,3 @@ def save_load_df(file:str):
         df = pd.read_csv(file, index_col= 0)
 
     return df
-
-df = save_load_df(file=file)
-df
