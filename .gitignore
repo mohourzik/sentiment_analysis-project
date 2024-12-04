@@ -1,6 +1,5 @@
 *.bin
 *.npz
-*.csv
 .idea
 .ipynb_checkpoints/
 .vscode
